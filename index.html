@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <meta
+      name="description"
+      content="Personal portfolio website built with HTML, CSS, and JavaScript."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="brand">Deepak</a>
+
+        <button class="nav-toggle" aria-label="Toggle menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-menu">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <div class="hero-text">
+            <p class="eyebrow">Hello, I'm</p>
+            <h1>Deepak Kumar</h1>
+            <h2>Frontend Developer & Problem Solver</h2>
+            <p class="hero-description">
+              I design and build clean, responsive, and user-friendly web
+              experiences that turn ideas into real digital products.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#projects" class="btn btn-primary">View Projects</a>
+              <a href="#contact" class="btn btn-secondary">Contact Me</a>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/" target="_blank" aria-label="GitHub">GitHub</a>
+              <a href="https://linkedin.com/" target="_blank" aria-label="LinkedIn">LinkedIn</a>
+              <a href="mailto:yourmail@example.com" aria-label="Email">Email</a>
+            </div>
+          </div>
+
+          <div class="hero-card">
+            <div class="profile-box">
+              <img
+                src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=900&q=80"
+                alt="Profile portrait"
+              />
+            </div>
+            <div class="mini-stats">
+              <div>
+                <strong>2+</strong>
+                <span>Years Experience</span>
+              </div>
+              <div>
+                <strong>15+</strong>
+                <span>Projects</span>
+              </div>
+              <div>
+                <strong>100%</strong>
+                <span>Passion</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">About Me</p>
+            <h3>Building digital experiences with purpose</h3>
+          </div>
+
+          <div class="about-grid">
+            <div class="about-card">
+              <p>
+                I am a web developer focused on creating modern, responsive, and
+                accessible websites. I enjoy turning complex ideas into simple,
+                elegant user interfaces with great attention to detail.
+              </p>
+            </div>
+
+            <div class="about-card">
+              <ul class="info-list">
+                <li><span>Location</span><strong>India</strong></li>
+                <li><span>Email</span><strong>yourmail@example.com</strong></li>
+                <li><span>Focus</span><strong>Web Development</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section alt-bg">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">My Skills</p>
+            <h3>Tools and technologies I work with</h3>
+          </div>
+
+          <div class="skills-grid">
+            <span>HTML5</span>
+            <span>CSS3</span>
+            <span>JavaScript</span>
+            <span>Responsive Design</span>
+            <span>Git</span>
+            <span>GitHub</span>
+            <span>UI/UX Basics</span>
+            <span>Figma</span>
+            <span>SEO Basics</span>
+            <span>Debugging</span>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projects</p>
+            <h3>Some of my recent work</h3>
+          </div>
+
+          <div class="projects-grid">
+            <article class="project-card">
+              <div class="project-image project-one"></div>
+              <div class="project-content">
+                <h4>Portfolio Website</h4>
+                <p>
+                  A clean and responsive personal portfolio built with HTML, CSS,
+                  and JavaScript.
+                </p>
+                <div class="tags">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-two"></div>
+              <div class="project-content">
+                <h4>Business Landing Page</h4>
+                <p>
+                  A modern landing page designed for startups and businesses to
+                  showcase services effectively.
+                </p>
+                <div class="tags">
+                  <span>UI</span>
+                  <span>Responsive</span>
+                  <span>CSS</span>
+                </div>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <div class="project-image project-three"></div>
+              <div class="project-content">
+                <h4>Dashboard UI</h4>
+                <p>
+                  A simple dashboard concept featuring charts, cards, and clean
+                  layouts for user data presentation.
+                </p>
+                <div class="tags">
+                  <span>JavaScript</span>
+                  <span>Design</span>
+                  <span>UX</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section highlight">
+        <div class="container cta-box">
+          <div>
+            <p class="eyebrow">Let's work together</p>
+            <h3>I’m available for freelance and full-time opportunities.</h3>
+          </div>
+          <a href="#contact" class="btn btn-primary">Hire Me</a>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Contact</p>
+            <h3>Let’s connect</h3>
+          </div>
+
+          <div class="contact-box">
+            <form class="contact-form">
+              <input type="text" placeholder="Your Name" />
+              <input type="email" placeholder="Your Email" />
+              <textarea rows="5" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+
+            <div class="contact-info">
+              <h4>Contact Details</h4>
+              <p>Email: yourmail@example.com</p>
+              <p>Phone: +91 98765 43210</p>
+              <p>Location: Your City, India</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Deepak Kumar. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
